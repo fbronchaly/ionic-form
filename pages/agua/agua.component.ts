@@ -3,14 +3,13 @@ import { NavController } from 'ionic-angular';
 import { ContactPage } from '../contact/contact';
 
 @Component({
-  selector: 'app-incendio',
-  templateUrl: './incendio.component.html',
-  styleUrls: ['./incendio.component.css']
+  selector: 'app-agua',
+  templateUrl: './agua.component.html',
+  styleUrls: ['./agua.component.css']
 })
-export class IncendioComponent  {
+export class AguaComponent  {
 
-   
-input: string;
+  input: string;
 usuario = {
 garantia:"",
 intervencion:""
