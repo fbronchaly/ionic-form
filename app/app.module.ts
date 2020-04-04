@@ -9,7 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { IncendioComponent } from '../pages/incendio/incendio.component';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MenuComponent } from '/menu/menu.component';
-import { AguaComponent } from '../pages/agua/agua.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { AguaComponent } from '../pages/agua/agua.component';
     TabsPage,
     MenuComponent,
     IncendioComponent,
-    AguaComponent
+  
   ],
   imports: [
     BrowserModule,
@@ -34,7 +34,7 @@ import { AguaComponent } from '../pages/agua/agua.component';
     HomePage,
     TabsPage,
     IncendioComponent,
-    AguaComponent
+ 
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
