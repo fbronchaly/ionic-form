@@ -9,11 +9,13 @@ import { NavController,NavParams } from 'ionic-angular';
 export class ContactPage {
   id: string;
   name: string;
+  garantia: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.id = navParams.get('nombre');
     this.name = navParams.get('password');
-     console.log (this.id, this.name);
+    this.garantia = navParams.get('garantia')
+     console.log (this.id, this.name, this.garantia);
 
   }
 

@@ -36,6 +36,13 @@
 <ion-label >Password</ion-label>
 <ion-input type="text" [(ngModel)]= "usuario.password" name="password"></ion-input>
 </ion-item>
+<ion-item>
+		
+			<ion-select item-left [(ngModel)]="usuario.garantia" name="garantia" [selectedText]="codec3" [selectOptions]="{title:'Elige garantia'}">
+				<ion-option *ngFor="let garantia of garantiaAgua" [value]="codec3">{{garantia.garantia}}</ion-option>
+			</ion-select>
+			
+	</ion-item>
 
 </ion-list>
 

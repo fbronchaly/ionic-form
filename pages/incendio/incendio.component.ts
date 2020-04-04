@@ -3,21 +3,20 @@ import { NavController } from 'ionic-angular';
 import { ContactPage } from '../contact/contact';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'app-incendio',
+  templateUrl: './incendio.component.html',
+  styleUrls: ['./incendio.component.css']
 })
-export class HomePage {
-  
+export class IncendioComponent  {
+
+   
 input: string;
 usuario = {
-  nombre:"",
-  password:"",
-  garantia:""
+garantia:""
 }
 
 
-  private garantiaAgua:any[] = [
-
+  private garantiaIncendio:any[] = [
 {
   garantia:"Incendio"
 },
@@ -31,6 +30,17 @@ usuario = {
   garantia:"Caída de rayo"
 }
 ];
+
+private intervieneBomberos:any[] = [
+{
+  intervencion:"Si"
+},
+{
+  intervencion:"No"
+}
+
+];
+
 
 
 
