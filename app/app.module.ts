@@ -30,7 +30,8 @@ import { MenuComponent } from './menu/menu.component';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    IncendioComponent
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
